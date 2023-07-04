@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 jun. 2023, 22:54:55
+    Author     : lenovo
+*/
+header{
+width: 100%;
+height: 120px;
+border: 10px solid transparent;
+border-image: url(imagenes/descarga.jpg) 30 stretch;
+overflow: hidden;
+margin-top: 0;    /* Márgen superior de 10 píxeles */
+margin-right: 0;  /* Márgen derecho de 20 píxeles */
+margin-bottom: 10px; /* Márgen inferior de 30 píxeles */
+margin-left: 0;
+background-color: blanchedalmond;
+
+}
+main {
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to bottom right, red, 
+yellow);
+float: left;
+
+}
+footer {
+width: 100%;
+height: 150px;
+float: left;
+background-color: gray;
+margin-top: 10px;   
+margin-right: 0;  
+margin-bottom: 0; 
+margin-left: 0;
+}
+#im{
+float: left;
+margin: 10px;
+width: 80px;
+height: 100px;
+}
+#face{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+h1{
+    font-style:italic;
+    clear: right;
+    color: blueviolet;
+    padding: 20px;
+}
+h2{
+    font-style: oblique;
+    font-variant:normal;
+}
+p{
+    text-align:justify;
+    text-decoration:underline;
+    clear: both;
+}
+#im1{
+    transform: matrix(1, 0.3, 0, 1, 0, 0);
+    margin: 60px;
+}
+#im2{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+    margin: 60px;
+}
+table{
+    border-collapse: collapse; 
+   border: 1px solid black;
+   margin: 15px;
+}
+table td, table th {
+  border: 1px solid black;   
+  padding: 8px;              
+}
+#im3{
+    transform: rotate(-10deg);
+    margin: 70px;
+
+}
+#im4{
+    opacity: .5;
+}
+#im5{
+   opacity: .5;
+}
